@@ -51,7 +51,7 @@ if(isset($_POST['update_student']))
     $email = mysqli_real_escape_string($con, $_POST['email']);
     $phone = mysqli_real_escape_string($con, $_POST['phone']);
     $course = mysqli_real_escape_string($con, $_POST['course']);
-    
+
 
     if($name == NULL || $email == NULL || $phone == NULL || $course == NULL)
     {
